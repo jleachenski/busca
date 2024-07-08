@@ -19,7 +19,7 @@ module.exports = {
 
         let comparacoes = 0
 
-        while(primeiro <= ultimo) {
+        while(primeiro <= ultimo) { // FIXME
 
             let meio = Math.floor((primeiro + ultimo) / 2)
             comparacoes++
